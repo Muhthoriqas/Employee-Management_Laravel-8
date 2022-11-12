@@ -40,19 +40,36 @@
                 </form>
             </div>
 
-            <div class="col-auto">
-                <a href="/exportpdf" class="btn btn-info">Export PDF</a>
+            <div class="dropdown col-auto">
+                <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Export Data
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li>
+                        <div class="col-auto mt-1 ">
+                            <a href="/exportpdf" class="btn btn-info w-100">Export PDF</a>
+                        </div>
+                    </li>
+                    <div class="col-auto mt-1">
+                        <a href="/exportexcel" class="btn btn-success w-100">Export Excel</a>
+                    </div>
+                </ul>
             </div>
-            <div class="col-auto">
-                <a href="/exportexcel" class="btn btn-success">Export Excel</a>
-            </div>
-
-            <div class="col-auto">
+            <div class="col-auto ">
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
                     Import Data
                 </button>
             </div>
+
+
+
+            <div class="col-auto">
+                <a href="/pegawai" class="btn btn-success">Refresh</a>
+            </div>
+
 
             <!-- Modal -->
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"

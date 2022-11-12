@@ -23,8 +23,9 @@
 
     <!-- Preloader -->
     <div class="preloader flex-column justify-content-center align-items-center">
-      <img class="animation__wobble" src="{{ asset('template/dist/img/loader.gif') }}" alt="AdminLTELogo" height="200"
-        width="200">
+      <img src="{{ asset('template/dist/img/loader5-unscreen.gif') }}" alt="AdminLTELogo" height="300" width="450">
+      {{-- <img class="animation__wobble" src="{{ asset('template/dist/img/loader3-unscreen.gif') }}" alt="AdminLTELogo"
+        height="200" width="200"> --}}
     </div>
 
     <!-- Navbar -->

@@ -2213,10 +2213,10 @@
         var $preloader = $__default["default"](SELECTOR_PRELOADER);
 
         if ($preloader) {
-          $preloader.css("height", 0);
           setTimeout(function () {
-            $preloader.children().hide();
-          }, 300);
+            $preloader.hide();
+            $preloader.css("height", 0);
+          }, 500);
         }
       }, this._config.preloadDuration);
     };
